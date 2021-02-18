@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AGENCIA</title>
+
+         <!--HOJA DE STYLOS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/stylos.css">
+
+        <!--BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    </head>
+
+    <body>
+        
+        <section>
+            <header>
+                <div id="logo">
+                    <h1  style="background-color: rebeccapurple;" >AGENCIA DE SEO </h1>
+                </div>
+            
+                <!--MENU-->
+                <nav id="menu">
+
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicio.html">Servicios</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="ubicacion.html">Ubicacion</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </nav>    
+
+
+            </header>
+
+            <!--APLICANDO  FRAMEWORK BOOTRAP-->
+
+
+            <!--VISTAS SECCION 8.5 --->
+        <section>
+            <div class="container" id="vistas">
+
+                <div class="row gris">
+                    <br>
+        
+                </div>
+
+                <div class="row contenido">
+                    
+                    <div class="col-5">
+                        <div class="row">
+                            <h1>Elige Tu   </h1>
+                        </div>
+                        <div class="row">
+                            <span>  Vista aqui   </span> <img  class="flechaRed " width="30px" src="assets/imagenes/FLECHA IZQ.svg" alt="flecha">
+                        </div>
+                        <div class="row">
+
+                            <div class="col">
+                                <h2 class="text-uppercase">orientación</h2>
+                                    <button class="filtro" data-attribute="Norte"> NORTE</button><br >
+                                    <button class="filtro" data-attribute="Sur"> SUR </button><br>
+                                    <button class="filtro" data-attribute="Este"> ESTE </button><br>
+                                    <button class="filtro" data-attribute="Oeste"> OESTE</button>   
+                            </div>
+
+                            <div class="col" >
+                                <h2>ESCOGE EL PISO</h2>
+
+                                <form name="formulario1" action="#">
+                                    <select class="seleccion" id="vista" onchange="cambiaImagen()">
+                                        <option value="0">Seleccione</option>
+                                      
+                                    </select>
+                                </form>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-7">
+                        <img id="vista-departamento"src="assets/imagenes/Sur/Piso 20 Sur.jpg" alt="vista">
+                    </div>
+
+                
+
+                    
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+    
+
+
+
+
+        </section>
+
+
+
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+	<script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+
+</html>

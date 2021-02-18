@@ -1,0 +1,165 @@
+
+
+
+#logo{
+
+
+    font-family: "Verdana","Arial Black" ;
+    font-size:25px;
+    color:white;
+    background-color: cornflowerblue;
+    width:380px;
+    height: 70px;
+    line-height: 75px;
+
+
+}
+
+
+#menu{
+    font-family: "Verdana","Arial Black" ;
+    background: #333;
+    margin-bottom: 5px;
+  
+
+}
+
+
+#menu ul{
+    line-height: 45px;
+    list-style: none;
+   
+}
+
+
+#menu ul li{
+   display: inline-block;
+   height: 45px;
+}
+
+
+#menu ul li a:link, a:visited, a:active{
+    text-decoration: none !important;
+    color:white;
+    padding-left: 30px;
+    padding-right: 130px;
+    font-size: 20px;
+ }
+
+
+ #slider {
+    margin-left: 58px;
+ }
+
+
+.parrafo{
+
+text-align: justify;
+
+}
+
+
+#vistas {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+  
+#vistas .gris{
+background-color: rgb(224, 224, 224);
+padding-top: 15%;
+}
+
+#vistas .contenido{
+   margin-top: -2%;
+}
+
+#vistas  h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+ }
+  
+  
+  #vistas .flechaRed{
+    transform: rotate(-90deg);
+    margin-left: 58%;
+    margin-top: -28%;
+    width: 15%;
+ 
+  }
+  
+  
+  #vistas  h1 {
+    padding-left: 15%;
+    padding-top: 20%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  #vistas  span{
+    margin-top: -4%;
+    padding-left: 25%;
+    padding-bottom: 8%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  #vistas  button {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width:120px;
+    border: #DFE6E8;
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+  #vistas  button:hover {
+    border:0
+  
+  }
+  
+  
+  #vistas  select {
+   
+   margin-bottom: 5px;
+   width:200px;
+   padding: 3px;
+   color: white;
+   border-radius: 0;
+   background-color: #e2001a;
+   transition: all 0.25s ease;
+   font-family: Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 1.0rem;
+   max-width: 250px;
+   position: relative;
+   display: inline-block;
+   outline: 0; 
+   border: 0;
+   
+  }
+  
+  
+  #vistas select:hover{
+    background: #DFE6E8;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .is-red{
+    color: white;
+    background-color: #e2001a;
+  }
+  
+  .is-white{
+    color: #000000;
+    background-color: #DFE6E8;
+  }
+  
+  
+  #vistas  #vista-departamento {
+    width: 95%;
+  }
+  
